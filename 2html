@@ -1,5 +1,9 @@
 pandoc -s -o index.html index.md
 
+pandoc -s -o q1.html q1.md
+pandoc -s -o q2.html q2.md
+pandoc -s -o q3.html q3.md
+
 git pull
 git add --all
 git commit -m "push avunilla"
